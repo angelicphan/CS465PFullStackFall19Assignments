@@ -5,102 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio: About Angelic</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="exercise3.css"
+      media="screen"
+    />
   </head>
 
   <body>
-    <header>
-      <h1>Porfolio: About Angelic</h1>
-      <nav>
-        <ul>
-          <li><a href="#bio">Biography</a></li>
-          <li><a href="#likes">My Likes</a></li>
-          <li><a href="#music">Links to cool music</a></li>
-          <li><a href="#contact">Contact me</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <h1 class="title">Porfolio: About Angelic</h1>
+      <div>
+        <nav class="menu">
+          <a href="#bio">Biography</a> | <a href="#likes">My Likes</a> |
+          <a href="#music">Playlist</a> |
+          <a href="#contact">Contact me</a>
+        </nav>
+      </div>
     </header>
     <section id="bio" role="bio">
-      <h2>Bio: A brief intro about me</h2>
-      <p>
-        Currently an undergrad in computer science at PSU. Not sure what to do
-        with my life, but that's okay... I'll just go cry in a corner. About to
-        graduate soon though so yay! My hobbies include listening to music,
-        reading, watching movies and tv shows, hanging out with friends,
-        sleeping, eating, making art, and being a wierdo. If I was reborn as an
-        animal, I'd be a sloth... or a panda because they're cuter than sloths.
-      </p>
-      <p>
-        <img
-          src="https://media4.s-nbcnews.com/j/newscms/2016_36/1685951/ss-160826-twip-05_8cf6d4cb83758449fd400c7c3d71aa1f.fit-1000w.jpg"
-          alt="panda with one arm raised and mouth open in a greeting"
-          height="200"
-          width="300"
-        />
-        VS.
-        <img
-          src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555303893/shape/mentalfloss/monster_primary_0.png"
-          alt="sloth
+      <h1>Bio: A brief intro about me</h1>
+      <div>
+        <p>
+          Currently an undergrad in computer science at PSU. Not sure what to do
+          with my life, but that's okay... I'll just go cry in a corner. About
+          to graduate soon though so yay! My hobbies include listening to music,
+          reading, watching movies and tv shows, hanging out with friends,
+          sleeping, eating, making art, and being a wierdo. If I was reborn as
+          an animal, I'd be a sloth... or a panda because they're cuter than
+          sloths.
+        </p>
+        <p class="animals">
+          <img
+            id="panda"
+            src="https://media4.s-nbcnews.com/j/newscms/2016_36/1685951/ss-160826-twip-05_8cf6d4cb83758449fd400c7c3d71aa1f.fit-1000w.jpg"
+            alt="panda with one arm raised and mouth open in a greeting"
+            height="200"
+            width="300"
+          />
+          <span id="vs">VS</span>
+          <img
+            id="sloth"
+            src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555303893/shape/mentalfloss/monster_primary_0.png"
+            alt="sloth
         close up"
-          height="200"
-          width="300"
-        />
-      </p>
+            height="200"
+            width="300"
+          />
+        </p>
+      </div>
     </section>
     <section id="likes" role="likes">
-      <h2>My Likes:</h2>
-      <ul>
-        <li>Music: trap, chill, tropical, edm, lo-fi, etc.</li>
-        <li>Art</li>
-        <li>Outdoorsy stuff</li>
-        <li>Being lazy</li>
-        <li>Playing sports even though I kinda suck</li>
-        <li>Playing Just Dance on the Switch</li>
-        <li>Bothering my family</li>
-      </ul>
+      <h1>My Likes:</h1>
+      <div id="likes-info">
+        <div id="likes-list">
+          <ul class="list">
+            <li>Music: trap, chill, tropical, edm, lo-fi, etc.</li>
+            <li>Art</li>
+            <li>Outdoorsy stuff</li>
+            <li>Being lazy</li>
+            <li>Playing sports even though I kinda suck</li>
+            <li>Playing Just Dance on the Switch</li>
+            <li>Bothering my family</li>
+          </ul>
+        </div>
+        <div id="likes-img">
+          <img
+            id="lazy-lofi-img"
+            src="https://soundontime.com/wp-content/uploads/2018/05/lo_fi_hip_hop_anime1.jpg"
+            alt="lo-fi art"
+            height="275"
+            width="600"
+          />
+        </div>
+      </div>
     </section>
     <section id="music" role="music">
-      <h2>Links to cool music :</h2>
-      <p>
-        <img
-          src="https://soundontime.com/wp-content/uploads/2018/05/lo_fi_hip_hop_anime1.jpg"
-          alt="lo-fi art"
-          height="275"
-          width="600"
-        />
-      </p>
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/watch?v=taD9hqwCb1o" target="_blank"
-            >24/7 Live Radio | Deep & Tropical House, Chill & Dance Music</a
-          >
-        </li>
-        <li>
-          <a href="https://youtu.be/Q3sbv9Y0jCk" target="_blank"
-            >24/7 Magic Hour Radio ✧ Chill</a
-          >
-        </li>
-        <li>
-          <a href="https://www.youtube.com/watch?v=EFIotmFi5Sk" target="_blank"
-            >24/7 Music Live Stream | Deep House & Tropical | Chill Out | Dance
-            Music</a
-          >
-        </li>
-      </ul>
+      <h1>Playlist: You'll thank me later</h1>
+      <div id="music-info">
+        <div id="music-img">
+          <img
+            id="studying-lofi-img"
+            src="https://m.media-amazon.com/images/I/81WKpJ8ki6L._SS500_.jpg"
+            alt="lo-fi art"
+            width="250"
+            height="250"
+          />
+        </div>
+        <div id="music-links">
+          <ul class="list">
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=taD9hqwCb1o"
+                target="_blank"
+                >24/7 Live Radio | Deep & Tropical House, Chill & Dance Music</a
+              >
+            </li>
+            <li>
+              <a href="https://youtu.be/Q3sbv9Y0jCk" target="_blank"
+                >24/7 Magic Hour Radio ✧ Chill</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=EFIotmFi5Sk"
+                target="_blank"
+                >24/7 Music Live Stream | Deep House & Tropical | Chill Out |
+                Dance Music</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/playlist?list=UUM9KEEuzacwVlkt9JfJad7g"
+                target="_blank"
+                >Chill Nation</a
+              >
+            </li>
+            <li>
+              <a href="https://youtu.be/0hRYf4fv6s8" target="_blank"
+                >Indie / Bedroom / Pop / Surf Rock - 24/7 Radio - Nice Guys
+                Chill FM</a
+              >
+            </li>
+            <li>
+              <a href="https://youtu.be/EcEMX-63PKY" target="_blank"
+                >lofi hip hop radio - beats to sleep/chill to</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section id="contact" role="contact">
-      <h2>Contact Me</h2>
-      <h4>Please fill out the following form if you want to message me!</h4>
-      <p>E-mail: <input type="email" value="" /></p>
-      <p>From: <input type="text" value="" /></p>
-      <p>Subject: <input type="text" value="" /></p>
-      <p>Content: <input type="text" value="" /></p>
-      <button>Submit</button>
+      <h1>Contact Me:</h1>
+      <div id="contact-info">
+        <div id="contact-form">
+          <p>Please fill out the following form if you want to message me!</p>
+          <div>
+            <input class="input" type="email" value="Your E-mail" />
+          </div>
+          <div>
+            <input class="input" type="text" value="Your Name" />
+          </div>
+          <div>
+            <input class="input" type="text" value="Subject" />
+          </div>
+          <div>
+            <textarea class="message"></textarea>
+          </div>
+          <button>SUBMIT</button>
+        </div>
+        <div id="contact-gif">
+          <img
+            id="sailor-moon-gif"
+            src="http://giphygifs.s3.amazonaws.com/media/i0VylPnssOKT6/giphy.gif"
+            alt="sailor moon gif"
+            height="315"
+          />
+        </div>
+      </div>
     </section>
-    <footer>
-      <h6>
-        Created by: Angelic Phan.........................Last Modified: October
-        8, 2019
-      </h6>
+    <footer class="footer">
+      <p>
+        Created by: Angelic Phan | October 8, 2019.........................Last
+        Modified: October 20, 2019
+      </p>
     </footer>
   </body>
 </html>
