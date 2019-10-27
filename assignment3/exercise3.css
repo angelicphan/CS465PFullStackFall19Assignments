@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 86px;
+  height: 13px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 7pt;
+  border: 2px solid white;
+  border-radius: 4px;
+}
