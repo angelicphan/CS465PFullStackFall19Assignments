@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Assignment 3: Exercise 1</title>
+    <title>Assignment 4: Exercise 3</title>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
@@ -21,7 +21,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="exercise1.css"
+      href="exercise3.css"
       media="screen"
     />
   </head>
@@ -43,11 +43,10 @@
             type="text"
             class="form-control"
             id="message"
-            placeholder=""
             rows="3"
           ></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-sm">
+        <button type="button" class="btn btn-primary btn-sm" id="submit-button">
           Submit
         </button>
         <button type="reset" class="btn btn-secondary btn-sm">
@@ -55,5 +54,12 @@
         </button>
       </form>
     </div>
+    <script>
+      $("#submit-button").on("click", function() {
+        console.log("name: ", $("#name").val());
+        console.log("email: ", $("#email").val());
+        console.log("message: ", $("#message").val());
+      });
+    </script>
   </body>
 </html>
