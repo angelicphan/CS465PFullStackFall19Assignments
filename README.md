@@ -1,5 +1,7 @@
 # CS465PFullStackFall19Assignments
 
+This repository is a compilation of my completed assignments for the Fall 2019 CS465P Fullstack Web Development class taken with Instructor Caterina Paun.
+
 ## Assignment 1 and Assignment 2
 
 I chosed http://placekitten.com/ for Exercise 2.
